@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Prueba-PruebaUITests/Pods-Prueba-PruebaUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Simple-Networking/Simple_Networking.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
