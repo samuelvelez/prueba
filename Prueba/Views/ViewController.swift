@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     func getStores(page: Int){
         
         
-        let url = URL(string: Endpoints.domain + "?page=\(page)")!
+        let url = URL(string: Endpoints.domain + "&page=\(page)")!
         
         var request = URLRequest(url: url)
         
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         print("\(indexPath.row)")
         if(dataSource.count <= (indexPath.row + 1)){
             print("llegamos al limite, traer mas")
-            let next = (dataSource.count/20) + 1
+            let next = (dataSource.count/10) + 1
         
             self.getStores(page: next)
         }
